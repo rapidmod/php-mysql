@@ -1,0 +1,30 @@
+{
+  "name": "rapidmod/php-mysql",
+  "description": "Active Record Style Database Manager",
+  "version" : "0.0.1-dev",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7"
+  },
+  "authors": [
+    {
+      "name": "Rapidmod"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/rapidmod"
+    }
+  ],
+  "require": {
+    "rapidmod/php-data-model": "@dev"
+  },
+  "prefer-stable": true,
+
+  "autoload": {
+    "psr-4": {
+      "Rapidmod\\": "src/"
+    }
+  }
+}
