@@ -18,7 +18,8 @@
     }
   ],
   "require": {
-    "rapidmod/php-data-model": "@dev"
+    "rapidmod/php-data-model": "@dev",
+    "rapidmod/php-application": "@dev"
   },
   "prefer-stable": true,
 
