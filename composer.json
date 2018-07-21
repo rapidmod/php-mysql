@@ -11,12 +11,6 @@
       "name": "Rapidmod"
     }
   ],
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/rapidmod"
-    }
-  ],
   "require": {
     "rapidmod/php-data-model": "@dev",
     "rapidmod/php-application": "@dev"
